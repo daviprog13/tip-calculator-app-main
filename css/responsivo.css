@@ -1,0 +1,31 @@
+@media(max-width:700px) {
+    .content {
+        flex-wrap: wrap;
+    }
+    .teclado-linha-mobile {
+        display: flex;
+    }
+    .teclado-linha-desktop {
+        display: none;
+    }
+    .position-icon input {
+        width: 410px;
+    }
+    .teclado-linha-mobile .teclado-botao {
+        width: 200px;
+    }
+    .teclado-linha-mobile input {
+        width: 200px;
+        margin-top: 5px;
+    }
+    .calculations {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .resultado {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,114 @@
+/* calculations */
+
+.calculations {
+    margin: 15px;
+    width: 100%;
+}
+
+.position-icon {
+    color: var(--color1);
+    font-weight: 500;
+    position: relative;
+}
+
+.position-icon img {
+    position: absolute;
+    top: 45px;
+    left: 10px;
+}
+
+.position-icon input {
+    display: block;
+    width: 376px;
+    text-align: right;
+    background-color: var(--color5);
+    border: none;
+    outline-color: #26C0AB;
+    margin: 5px 0;
+    height: 47px;
+    color: var(--color1);
+    font-size: 700;
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.position-icon input::placeholder {
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    color: var(--color1);
+    font-size: 700;
+}
+
+.position-icon span {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    color: red;
+}
+
+.position-icon span.ativo {
+    display: none;
+}
+
+.position-icon [id="people"] {
+    border: 2px solid red;
+    outline: none;
+}
+
+.position-icon [id="people"].ativo {
+    outline: 2px solid #26C0AB;
+    border: none;
+}
+
+.teclado-linha-desktop {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.teclado-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 114px;
+    height: 45px;
+    background-color: var(--color1);
+    margin: 5px 10px 5px 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    border-radius: 5px;
+}
+
+.teclado-botao:hover {
+    background-color: var(--color7);
+    color: var(--color1);
+}
+
+.teclado-linha-desktop input {
+    width: 114px;
+    height: 45px;
+    text-align: right;
+    color: var(--color1);
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    outline-color: #26C0AB;
+    background-color: var(--color5);
+    border-radius: 5px;
+}
+
+.teclado-linha-desktop input::placeholder {
+    text-align: center;
+    color: var(--color2);
+    font-weight: 700;
+}

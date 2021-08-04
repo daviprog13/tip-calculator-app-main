@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <title>Calculadora de Porcentagem</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo"><img src="./img/logo.svg" alt=""></div>
+
+        <section class="content">
+            <div class="calculations">
+                <form name="calculations">
+                    <div class="position-icon">
+                        <label for="bill">Bill</label>
+                        <input type="text" autocomplete="off" id="bill" placeholder="0 ">
+                        <img src="./img/icon-dollar.svg" alt="icon-dollar">
+                    </div>
+
+                    <div class="tip">
+                        <label for="seclTip">Select Tip %</label>
+                        <div class="teclado-linha-desktop">
+                            <div class="teclado-botao">5%</div>
+                            <div class="teclado-botao">10%</div>
+                            <div class="teclado-botao">15%</div>
+                        </div>
+                        <div class="teclado-linha-desktop">
+                            <div class="teclado-botao">25%</div>
+                            <div class="teclado-botao">50%</div>
+                            <input type="text" autocomplete="off" placeholder="Custom" placeholder="0 " id="custom">
+                        </div>
+
+                        <!-- Mobile -->
+                        <div class="teclado-linha-mobile">
+                            <div class="teclado-botao">5%</div>
+                            <div class="teclado-botao">10%</div>
+                        </div>
+                        <div class="teclado-linha-mobile">
+                            <div class="teclado-botao">15%</div>
+                            <div class="teclado-botao">25%</div>
+                        </div>
+                        <div class="teclado-linha-mobile">
+                            <div class="teclado-botao">50%</div>
+                            <input type="text" autocomplete="off" placeholder="Custom" id="custom">
+                        </div>
+                    </div>
+                    <div class="position-icon">
+                        <label for="people">Number of Peoples</label> <span>       Can't be zero</span>
+                        <input type="text" autocomplete="off" id="people" placeholder="0 ">
+                        <img src="./img/icon-person.svg" alt="icon-person">
+
+                    </div>
+                </form>
+            </div>
+            <div class="resultado">
+                <form name="resultado">
+                    <div class="calculation-results">
+                        <p>Tip Amount</p>
+                        <input type="text" autocomplete="off" placeholder="$ 0.00" data-gorgeta id="tip">
+                        <p>/ person</p>
+                    </div>
+                    <div class="calculation-results">
+                        <p>Total</p>
+                        <input type="text" autocomplete="off" placeholder="$ 0.00" data-total id="total">
+                        <p>/ person</p>
+                    </div>
+
+                    <div class="btn-reset">
+                        <button data-button>reset</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

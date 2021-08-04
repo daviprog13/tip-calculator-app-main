@@ -1,0 +1,20 @@
+@import 'geral.css';
+@import 'calculations.css';
+@import 'resultado.css';
+@import 'responsivo.css';
+:root {
+    --color1: #00494D;
+    --color2: #5E7A7D;
+    --color3: #7F9C9F;
+    --color4: #C5E4E7;
+    --color5: #F4FAFA;
+    --color6: #fff;
+    --color7: #26C0AB;
+    --font: 'Space Mono', monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

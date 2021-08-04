@@ -1,0 +1,111 @@
+/* Resultado */
+
+.resultado {
+    margin: 15px;
+    width: 100%;
+    height: 350px;
+    background-color: var(--color1);
+    padding: 50px 20px;
+    border-radius: 20px;
+}
+
+.calculation-results {
+    font-weight: 700;
+    position: relative;
+}
+
+.calculation-results p:first-child {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    color: #fff;
+}
+
+.calculation-results p:last-child {
+    position: absolute;
+    top: 24px;
+    left: 13px;
+    font-size: 13px;
+    color: var(--color7);
+}
+
+.calculation-results input {
+    width: 372px;
+    height: 45px;
+    text-align: right;
+    color: var(--color7);
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+    font-size: 43px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+
+.calculation-results input::placeholder {
+    color: var(--color7);
+    margin-right: 10px;
+    font-size: 43px;
+}
+
+.btn-reset {
+    text-align: center;
+    margin-top: 70px;
+    width: 372px;
+    height: 45px;
+}
+
+.btn-reset button {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #0D686D;
+    color: var(--color1);
+    font-family: 'Space Mono', monospace;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    font-size: 24px;
+    transition: .3s ease-in-out;
+}
+
+.btn-reset button:hover {
+    background-color: var(--color7);
+}
+
+
+/* teclado-linha-mobile */
+
+.teclado-linha-mobile {
+    display: flex;
+}
+
+.teclado-linha-mobile input {
+    width: 114px;
+    height: 45px;
+    text-align: right;
+    color: var(--color1);
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    outline-color: #26C0AB;
+    background-color: var(--color5);
+}
+
+.teclado-linha-mobile input::placeholder {
+    text-align: center;
+    color: var(--color2);
+    font-weight: 700;
+}
+
+.teclado-linha-mobile {
+    display: none;
+}
